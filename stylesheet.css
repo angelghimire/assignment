@@ -1,0 +1,607 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),
+		rgba(0,0,0,0.5)),
+	url(image/main.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-attachment: fixed;
+
+}
+body{
+	font-family: monospace;
+	
+}
+.nav {
+	float:right;
+	list-style:none;
+	margin-top: 30px;
+
+}
+.nav li{
+	display: inline-block;
+}
+.nav li a{
+	color:white;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.nav li.foractive a{
+	border: 1px solid white;
+}
+.nav li a:hover{
+	border:1px solid white;
+	color:red;
+
+}
+.logo img{
+	width:170px;
+	height: 70;px
+	float:left;
+	margin-top: 10px;
+	position: absolute;	
+}
+.first{
+	max-width: 1200px;
+	margin:auto;
+}
+.mainbutton{
+	margin-top:30px;
+	margin-left:510px;
+	font-family:Arial;
+	font-weight:bold;
+}
+h1{
+	text-align:center;
+	padding-top:300px;
+	color:white;
+	font-size:60px;
+
+}
+.loginform{
+	position:absolute;
+	width:300px;
+	height:400px;
+	box-sizing:border-box;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding:40px;
+	background: rgba(0,0,0,0.5);
+	font-family: Tahoma;
+
+}
+.loginform h3{
+	font-weight: bold;
+	color:#ffffff;
+	margin-bottom: 20px;
+	margin-left:40px;
+}
+.loginform label{
+	margin:0;
+	padding: 0;
+	color:#ffffff;
+	font-weight: bold;
+}
+.loginform input{
+	margin-bottom:20px;
+}
+.loginform input[type="text"],
+.loginform input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #ffffff;
+	background-color: transparent;
+	height:40px;
+	outline:none;
+	color:#ffffff;
+	width:100%;
+
+}
+::placeholder{
+	color:#ffffff;
+}
+.loginform input[type="submit"]
+{
+	height:40px;
+	width:160px;
+	cursor: pointer;
+	color:#ffffff;
+	background-color:tomato;
+	border:none;
+	border-radius:20px;
+	margin-left: 20px;
+	font-size:16px;
+}
+.loginform a{
+	color:#ffffff;
+	text-decoration:none;
+	margin-top:20px;
+	margin-left:40px;
+}
+.loginform input[type="submit"]:hover{
+	background-color: cyan;
+	color:#ffffff;
+}
+.loginform a:hover{
+	color:blue;
+}
+.new{
+	background-image:url('image/aboutus2.jpg');
+}
+.registerform {
+	position:absolute;
+	width:400px;
+	height:690px;
+	box-sizing:border-box;
+	top:60%;
+	left:55%;
+	transform: translate(-85%,-50%);
+	padding:30px;
+	font-family: Tahoma;
+	background:#1b1e2182;
+
+}
+.registerform h3{
+	font-weight: bold;
+	color:#ffffff;
+	margin-bottom: 20px;
+	margin-left:40px;
+}
+.registerform label{
+	margin:0;
+	padding: 0;
+	color:#ffffff;
+	font-weight: bold;
+}
+.registerform input{
+	margin-bottom:20px;
+}
+.registerform input[type="text"],
+.registerform input[type="password"],
+.registerform input[type="Email"],
+.registerform input[type="date"]
+{
+	border:none;
+	border-bottom: 1px solid #ffffff;
+	background: transparent;
+	height:30px;
+	outline:none;
+	color:#ffffff;
+	width:100%;
+
+}
+.registerform::placeholder{
+	color:#ffffff;
+}
+.registerform input[type="submit"]
+{
+	height:40px;
+	width:160px;
+	cursor: pointer;
+	color:#ffffff;
+	background-color:tomato;
+	border:none;
+	border-radius:20px;
+	margin-left: 60px;
+	font-size:16px;
+}
+
+.registerform input[type="submit"]:hover{
+	background-color: blue;
+	color:#ffffff;
+}
+.mainbody{
+	height:100%;
+	margin:0;
+	font-weight:400;
+	line-height:1.8em;
+	color:#666;
+	font-size:18px;
+	font-family:"Lato", sans-serif;
+
+}
+.section-one{
+	background-color:#f4f4f4;
+	color:#666;
+
+}
+
+.aboutus{
+	position:relative;
+	opacity:0.70;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+}
+.section{
+	text-align:center;
+	padding:50px 80px;
+}
+.aboutus{
+	background-image:url('image/aboutus4.jpg');
+	min-height:100%;
+	background-attachment: fixed;
+}
+.section-two{
+	background-color:#282e34;
+	color:#ddd;
+}
+.footer{
+	background-attachment: fixed;
+}
+.count {
+	margin-left: 260px;
+	padding-top: 10px;
+	color:white;
+	
+}
+.adminbody{
+	background-image:url('image/aboutus4.jpg');
+	height:auto;
+}
+#update{
+	background-color:gray;
+	margin-top:2px;
+}
+#update:hover{
+	background-color:blue;
+}
+#select{
+	width: 100%;
+
+}
+.table{
+	position:absolute;
+	margin-top:50px;
+}
+.animalform {
+	position:absolute;
+	width:300px;
+	height:450px;
+	top:55%;
+	left:55%;
+	transform: translate(-80%,-70%);
+	padding:30px;
+	font-family: Tahoma;
+	background-color:#525B56;
+	box-sizing: border-box;
+	padding:40px;
+
+
+}
+.animalform input[type="text"]{
+	width:100%;
+	margin-bottom: 40px;
+	height:30px;
+	border-radius: 20px;
+
+}
+.animalform ::placeholder{
+	color:gray;
+	text-align: center;
+}
+.animalform input[type="submit"]
+{
+	height:40px;
+	width:160px;
+	cursor: pointer;
+	color:#ffffff;
+	background-color:tomato;
+	border:none;
+	border-radius:20px;
+	margin-left: 40px;
+	font-size:16px;
+	margin-bottom:7px;
+}
+
+.animalform input[type="submit"]:hover{
+	background-color: blue;
+	color:#ffffff;
+}
+.table{
+	position:absolute;
+	margin-top:600px;
+	margin-left: 400px;
+	background-color: white;
+	width:auto;
+	border-collapse: collapse;
+
+}
+.table th {
+	background:red;
+	text-align:center;
+	font-size: 14px;
+}
+
+.table tr:nth-child(even) {
+	text-align: center;
+	background-color:#e8e8e8;
+
+
+}
+.table tr:nth-child(odd) {
+	text-align: center;
+	background-color:#ffffff;
+
+}
+.table tr{
+	font-family: Tahoma;
+}
+.userbody{
+	background-image: url('image/userhome.jpg');
+}
+
+.blockedmsg{
+	position: absolute;
+	top: 160px;
+	left: 550px;
+	color: red;
+}
+.slideshow{
+	background: fixed;
+}
+.animal{	
+	background-image:url('image/aboutus4.jpg');
+	background-attachment: fixed;
+}
+
+.animals{
+	margin-top: 70px;
+	position: absolute;
+	margin-left: 250px;
+	width:815px;
+}
+.animals div{
+	background-color: gray;
+
+}
+.welcome{
+	padding-left: 550px;
+	padding-top:100px;
+	font-size: 45px;
+	font-family: vardan;
+
+}
+.intro
+{
+	position: absolute;
+	top:140px;
+	left:15px;
+	float: left;
+	width:270px;
+	height:550px;
+	background-color:#ffffff;
+}
+.intro .logo img{
+	width:120px;
+	height:100px;
+	display: center;
+	margin-left: 52px;
+	margin-top: 23px;
+}
+.intro .parameters p{
+	padding-left: 35px;
+	margin-top: 35px;
+	font-size: 15px;
+
+}
+.parameters{
+	margin-top: 164px;
+	position: relative;
+}
+.parameters .pname{
+	margin-left: 20px;
+}
+.parameters .ppname{
+	margin-left:-30px;
+}
+
+.cbody{
+	background: url(image/beer.jpg);
+	
+}
+
+.forumbody{
+	width: 800px;
+	height:auto;
+	position: absolute;
+	top:100px;
+	left:150px;
+	
+
+	
+}
+.inputsquestion{
+	background-color: gray;
+	height: auto;
+	width:800px;
+	margin-left: 80px;
+}
+.forumbody .inputs{
+	position: relative;
+	left:80px;
+	width:500px;
+	padding-top: 5px;
+	
+}
+
+.inputs #questionSubmit{
+	position: relative;
+	left:220px;
+}
+
+.forumbody .inputs.answers{
+	margin-top: 0px;
+	background-color:cyan;
+	height:auto;
+	width:800px;
+}
+
+#span{
+	padding-left: 15px;
+}
+.donate table{
+	position:absolute;
+	margin-top:200px;
+	margin-left:350px;
+	background-color: white;
+	width:auto;
+	border-collapse: collapse;
+
+}
+.donate table th {
+	background:red;
+	text-align:center;
+	font-size: 14px;
+}
+
+.donate table tr:nth-child(even) {
+	text-align: center;
+	background-color:#e8e8e8;
+
+
+}
+.donate table tr:nth-child(odd) {
+	text-align: center;
+	background-color:#ffffff;
+
+}
+.donate table tr{
+	font-family: Tahoma;
+}
+.donate table{
+	width:600px;
+	height:600;
+}
+.dbody{
+	background:url(image/user.jpg);
+}
+.animal_select{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 1086px;
+}
+.animal_select{
+	font-family: tahoma;
+	font-size: 18px;
+
+
+}
+.animal_select label{
+	color:white;
+	font-size:20px;
+}
+.animal_select select{
+	width:120px;
+	
+}
+#myanimals{
+	position: absolute;
+	margin-left: 317px;
+}
+.manage{
+	background-color:white;
+	font-size:17px;
+	font-family: sans-serif;
+}
+.book-btn{
+	float:left;
+	margin-left:20px;
+
+}
+.fav-btn{
+	float: right;
+	margin-right: 20px;
+}
+
+.answer-list{
+	margin-left:20px;
+}
+
+.question-list{
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+.reply-btn{
+	margin-top:-30px;
+}
+
+.question-reply{
+	margin-top: 10px;
+}
+.each-answer{
+	background-color:whitesmoke;
+	width:750px;
+}
+.each-answer p{
+	width:500px;
+	padding-left: 5px;
+	font-family: verdana;
+}
+.question-reply textarea{
+	width:600px;
+}
+.inputsquestion{
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+.question-list  li h5{
+	margin-left: 10px;
+	
+}
+
+.pagination-links{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 50px;
+
+}
+
+
+.pagination-links a{
+	padding:5px;
+	border:1px solid red;
+	margin-left: 5px;
+	background-color: #dc3545;
+	
+	
+}
+
+a.active{
+	color: black;
+	background-color:red;
+	text-decoration: underline;
+}
+.dtotal{
+	position: absolute;
+	margin-top: 100px;
+	font-size: 20px;
+	margin-left: 500px;
+	background-color:chartreuse;
+}
+#petgifts{
+	
+	position: absolute;
+	margin-left: 120px;
+	
+}
+#petgifts p{
+font-family: arial;
+font-size: 50px;
+text-align: center;
+color: blue;
+margin-left: 115px;
+background-color: white;
+}
